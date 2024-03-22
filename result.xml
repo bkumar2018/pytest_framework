@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.028" timestamp="2024-03-22T19:22:40.555559" hostname="Chanchals-MacBook-Pro.local"><testcase classname="test_compare_using_marker" name="test_greater" time="0.000"><failure message="assert 100 &gt; 100">@pytest.mark.great
+    def test_greater():
+       num = 100
+&gt;      assert num &gt; 100
+E      assert 100 &gt; 100
+
+test_compare_using_marker.py:6: AssertionError</failure></testcase><testcase classname="test_compare_using_marker" name="test_greater_equal" time="0.000" /></testsuite></testsuites>
